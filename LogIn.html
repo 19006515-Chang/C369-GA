@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+ <main> <h1> CZRemit <h1> 
+ <style>
+    
+    body{
+        background-image: url("C:/Users/19006515/Downloads/BGimg.jpg");
+        
+        background-repeat: no-repeat;
+        
+        background-size: cover;
+    }
+
+    /* to make the side pointy dissapeer */   
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    input[type="number"]{
+        -moz-appearance: textfield;
+    }
+ </style>
+ 
+<body> 
+ <!-- When press submit will redirect me to homepage after succesfull log in-->
+    <form action="HomePage.html" method="post">
+        <label for="username">Username</label>
+        <input type="text" id="username"  name="username" required>
+        
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+        
+        
+
+
+        <p>Six digit OTP code sent to number ending with +65 **** 1234!</p>
+
+        <label for="OTP code">OTP code</label>
+        <input type = 'number' id="OTP code:" name = "OTP code:">
+
+        <input  type="submit" value="Login" > </form>
+        
+
+   
+          
+      
+<body> 
+ </html>
